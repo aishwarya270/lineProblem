@@ -4,7 +4,7 @@ import { click, sendKeys, waitToBePresent } from '@hetznercloud/protractor-test-
 browser.waitForAngularEnabled(false);
 browser.get("http://www.htmlcanvasstudio.com/");
 
-browser.sleep(5000);
+browser.sleep(2000);
 
 export class StraightLine {
     private static canvasTextArea = element(by.id("imageTemp"))
